@@ -26,7 +26,7 @@
 Updated resume with Tailwind (dark & light mode)
 
 
-&copy; Good Pastel. 2024
+&copy; Good Pastel. 2025
 
 <!-- MARKDOWN LINKS & IMAGES -->
 

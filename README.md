@@ -1,6 +1,6 @@
-# simple calculator
+# Devi Yolanda - Resume Updated
 
-> [[simple calculator](https://good-pastel.github.io/simple-calculator)]
+> [[Resume Updated](https://good-pastel.github.io/dy-resume)]
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -23,7 +23,7 @@
 
 ## Description
 
-A simple calculator built with _HTML_ & _CSS_
+Updated resume with Tailwind (dark & light mode)
 
 
 &copy; Good Pastel. 2024

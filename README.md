@@ -105,3 +105,9 @@ Your support motivates me to continue learning, building, and sharing more proje
 ---
 
 <div align="center">
+
+Made with 🤍 by **Devi Yolanda**
+
+_Part of my personal Side Projects collection, where I build, experiment, and continuously improve through hands-on development._
+
+</div>

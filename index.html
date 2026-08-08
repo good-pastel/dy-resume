@@ -1,1 +1,1225 @@
-under construction
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Devi Yolanda | Technical Writer</title>
+
+    <meta
+      name="description"
+      content="Online CV of Devi Yolanda — Technical Writer specializing in IT documentation, reporting, data processing, and IT security operations."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- =========================
+         SVG ICON SYMBOLS
+    ========================== -->
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="icon-download" viewBox="0 0 24 24">
+        <path
+          d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+
+      <symbol id="icon-briefcase" viewBox="0 0 24 24">
+        <rect
+          x="3"
+          y="7"
+          width="18"
+          height="13"
+          rx="2"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <path
+          d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18M10 12v2h4v-2"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+
+      <symbol id="icon-document" viewBox="0 0 24 24">
+        <path
+          d="M6 2h9l5 5v15H6z"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M14 2v6h6M9 13h6M9 17h6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </symbol>
+
+      <symbol id="icon-chart" viewBox="0 0 24 24">
+        <path
+          d="M4 19V5M4 19h17"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <path
+          d="m7 15 4-5 3 3 5-7"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+
+      <symbol id="icon-users" viewBox="0 0 24 24">
+        <circle
+          cx="9"
+          cy="8"
+          r="3"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <circle
+          cx="17"
+          cy="9"
+          r="2.5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <path
+          d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15 14c3.3 0 6 2 6 5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </symbol>
+
+      <symbol id="icon-code" viewBox="0 0 24 24">
+        <path
+          d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+
+      <symbol id="icon-shield" viewBox="0 0 24 24">
+        <path
+          d="M12 3 20 6v6c0 5-3.3 8-8 10-4.7-2-8-5-8-10V6z"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linejoin="round"
+        />
+        <path
+          d="m9 12 2 2 4-4"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+
+      <symbol id="icon-design" viewBox="0 0 24 24">
+        <path
+          d="m14 4 6 6M13 5 4 14l-1 6 6-1 9-9"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linejoin="round"
+        />
+        <path
+          d="m16 2 6 6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </symbol>
+
+      <symbol id="icon-graduation" viewBox="0 0 24 24">
+        <path
+          d="m3 9 9-5 9 5-9 5z"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M7 11v5c2 2 8 2 10 0v-5M21 9v6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </symbol>
+
+      <symbol id="icon-mail" viewBox="0 0 24 24">
+        <rect
+          x="3"
+          y="5"
+          width="18"
+          height="14"
+          rx="2"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <path
+          d="m3 7 9 6 9-6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linejoin="round"
+        />
+      </symbol>
+
+      <symbol id="icon-linkedin" viewBox="0 0 24 24">
+        <rect
+          x="4"
+          y="4"
+          width="16"
+          height="16"
+          rx="2"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <path
+          d="M8 10v6M8 8v.01M12 16v-3a2 2 0 0 1 4 0v3M12 10v6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </symbol>
+
+      <symbol id="icon-github" viewBox="0 0 24 24">
+        <path
+          d="M9 19c-4 1.5-4-2-5.5-2m11 4v-3.5c0-1 .1-1.4-.5-2 2.5-.3 5-1.2 5-5.5 0-1.1-.4-2.1-1.1-2.8.1-.3.5-1.4-.1-2.8 0 0-1-.3-3 1.1a10.4 10.4 0 0 0-5.5 0c-2-1.4-3-1.1-3-1.1-.6 1.4-.2 2.5-.1 2.8A4 4 0 0 0 6 12.5c0 4.3 2.5 5.2 5 5.5-.4.4-.6.9-.6 1.8V21"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+
+      <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <path
+          d="M5 12h14M13 6l6 6-6 6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+
+      <symbol id="icon-location" viewBox="0 0 24 24">
+        <path
+          d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <circle
+          cx="12"
+          cy="10"
+          r="2.5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+      </symbol>
+
+      <symbol id="icon-menu" viewBox="0 0 24 24">
+        <path
+          d="M4 6h16M4 12h16M4 18h16"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </symbol>
+
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <path
+          d="m6 6 12 12M18 6 6 18"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </symbol>
+
+      <symbol id="icon-arrow-up" viewBox="0 0 24 24">
+        <path
+          d="M12 19V5M6 11l6-6 6 6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+    </svg>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="site-header" id="siteHeader">
+      <div class="nav-container">
+        <a href="#profile" class="brand">
+          <span class="brand-mark"> DY </span>
+
+          <span class="brand-text">
+            <strong>Devi Yolanda</strong>
+            <small>Technical Writer</small>
+          </span>
+        </a>
+
+        <nav class="desktop-nav">
+          <a href="#profile" class="nav-link active"> Profile </a>
+
+          <a href="#experience" class="nav-link"> Experience </a>
+
+          <a href="#skills" class="nav-link"> Skills </a>
+
+          <a href="#projects" class="nav-link"> Projects </a>
+
+          <a href="#contact" class="nav-link"> Contact </a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="assets/Devi Yolanda CV.pdf" class="download-btn" download>
+            <svg>
+              <use href="#icon-download"></use>
+            </svg>
+
+            <span>Download CV</span>
+          </a>
+
+          <button
+            class="mobile-menu-btn"
+            id="mobileMenuBtn"
+            aria-label="Open navigation menu"
+          >
+            <svg>
+              <use href="#icon-menu"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-nav" id="mobileNav">
+        <a href="#profile">Profile</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================
+             HERO / PROFILE
+        ========================== -->
+
+      <section class="hero" id="profile">
+        <div class="hero-decoration decoration-left"></div>
+
+        <div class="hero-decoration decoration-yellow"></div>
+
+        <div class="hero-dots"></div>
+
+        <div class="container hero-container">
+          <div class="profile-photo-wrapper">
+            <div class="photo-background"></div>
+
+            <div class="photo-accent"></div>
+
+            <!-- Replace with your actual profile photo -->
+            <img
+              src="assets/profile.jpg"
+              alt="Devi Yolanda"
+              class="profile-photo"
+            />
+          </div>
+
+          <div class="hero-content">
+            <span class="hero-eyebrow"> Hello, I'm </span>
+
+            <h1>Devi Yolanda</h1>
+
+            <h2>Technical Writer</h2>
+
+            <p class="hero-specialization">
+              IT Documentation
+              <span>•</span>
+              Reporting
+              <span>•</span>
+              Data Processing
+            </p>
+
+            <p class="hero-description">
+              Technical Writer with experience in IT Security Operations,
+              technical documentation, reporting, data processing, and
+              stakeholder coordination. Passionate about turning complex
+              technical information into clear, structured, and useful
+              documentation.
+            </p>
+
+            <div class="hero-contact">
+              <span class="contact-item">
+                <svg>
+                  <use href="#icon-location"></use>
+                </svg>
+
+                Jakarta, Indonesia
+              </span>
+
+              <span class="contact-divider"></span>
+
+              <a
+                href="https://www.linkedin.com/in/deviyool"
+                target="_blank"
+                rel="noopener"
+                class="contact-item"
+              >
+                <svg>
+                  <use href="#icon-linkedin"></use>
+                </svg>
+
+                LinkedIn
+              </a>
+
+              <span class="contact-divider"></span>
+
+              <a
+                href="https://github.com/good-pastel"
+                target="_blank"
+                rel="noopener"
+                class="contact-item"
+              >
+                <svg>
+                  <use href="#icon-github"></use>
+                </svg>
+
+                GitHub
+              </a>
+
+              <span class="contact-divider"></span>
+
+              <a
+                href="mailto:datatechnicalwriter@gmail.com"
+                class="contact-item"
+              >
+                <svg>
+                  <use href="#icon-mail"></use>
+                </svg>
+
+                Email
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+             HIGHLIGHTS
+        ========================== -->
+
+      <section class="highlights">
+        <div class="container highlights-container">
+          <div class="highlight-item">
+            <div class="highlight-icon pink">
+              <svg>
+                <use href="#icon-briefcase"></use>
+              </svg>
+            </div>
+
+            <div>
+              <strong>5+</strong>
+              <span>Years<br />Experience</span>
+            </div>
+          </div>
+
+          <div class="highlight-divider"></div>
+
+          <div class="highlight-item">
+            <div class="highlight-icon orange">
+              <svg>
+                <use href="#icon-document"></use>
+              </svg>
+            </div>
+
+            <div>
+              <strong>Technical</strong>
+              <span>Writing<br />Documents</span>
+            </div>
+          </div>
+
+          <div class="highlight-divider"></div>
+
+          <div class="highlight-item">
+            <div class="highlight-icon blue">
+              <svg>
+                <use href="#icon-chart"></use>
+              </svg>
+            </div>
+
+            <div>
+              <strong>IT Security</strong>
+              <span>Reporting &<br />Data</span>
+            </div>
+          </div>
+
+          <div class="highlight-divider"></div>
+
+          <div class="highlight-item">
+            <div class="highlight-icon teal">
+              <svg>
+                <use href="#icon-users"></use>
+              </svg>
+            </div>
+
+            <div>
+              <strong>Python</strong>
+              <span>ETL<br />Processing</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+             EXPERIENCE + SKILLS
+        ========================== -->
+
+      <section class="main-content">
+        <div class="container experience-layout">
+          <!-- EXPERIENCE -->
+
+          <div class="experience-section" id="experience">
+            <div class="section-heading">
+              <span class="section-icon coral">
+                <svg>
+                  <use href="#icon-briefcase"></use>
+                </svg>
+              </span>
+
+              <h2>Professional Experience</h2>
+            </div>
+
+            <div class="timeline">
+              <!-- EXPERIENCE 1 -->
+
+              <article class="experience-item">
+                <div class="timeline-date">
+                  July 2024 –
+                  <br />
+                  Present
+                </div>
+
+                <div class="timeline-dot"></div>
+
+                <div class="experience-content">
+                  <h3>Identity Access Management Endpoint Technical Writer</h3>
+
+                  <h4>PT Metrocom Global Solusi</h4>
+
+                  <div class="experience-tags">
+                    <span>IT Security</span>
+                    <span>Documentation</span>
+                    <span>Reporting</span>
+                    <span>Data</span>
+                  </div>
+
+                  <ul>
+                    <li>
+                      Collect and validate technical information from engineers
+                      and stakeholders.
+                    </li>
+
+                    <li>
+                      Compile periodic reports ranging from daily to annual
+                      reporting.
+                    </li>
+
+                    <li>
+                      Create and maintain inventory data, SOPs, user manuals,
+                      RCA reports, and POC reports.
+                    </li>
+
+                    <li>
+                      Record CRQs, user requests, and engineering activities.
+                    </li>
+
+                    <li>
+                      Design visual materials and presentations to communicate
+                      technical solutions.
+                    </li>
+                  </ul>
+
+                  <div class="achievement-box">
+                    <strong> Key Achievement </strong>
+
+                    <p>
+                      Operated Trend Micro consoles including Deep Security,
+                      XDR, Apex One, Apex Central, and IMSVA to retrieve
+                      operational data for reporting.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- EXPERIENCE 2 -->
+
+              <article class="experience-item">
+                <div class="timeline-date">
+                  Oct 2021 –
+                  <br />
+                  Jun 2024
+                </div>
+
+                <div class="timeline-dot"></div>
+
+                <div class="experience-content">
+                  <h3>Project Admin & Antivirus Technical Writer</h3>
+
+                  <h4>PT Mitra Integrasi Informatika</h4>
+
+                  <div class="experience-tags">
+                    <span>Project Admin</span>
+                    <span>Documentation</span>
+                    <span>Trend Micro</span>
+                    <span>Reporting</span>
+                  </div>
+
+                  <ul>
+                    <li>
+                      Supported Project Manager in coordinating daily project
+                      activities and team operations.
+                    </li>
+
+                    <li>
+                      Managed attendance, timesheets, overtime, expenses, and
+                      asset documentation.
+                    </li>
+
+                    <li>
+                      Prepared Minutes of Meeting, contracts, KPI documents, and
+                      project administration records.
+                    </li>
+
+                    <li>
+                      Gathered technical data from AntiVirus Engineers and
+                      stakeholders for reporting.
+                    </li>
+
+                    <li>
+                      Created daily, monthly, annual, and ad-hoc Trend Micro
+                      reports.
+                    </li>
+                  </ul>
+
+                  <div class="achievement-box">
+                    <strong> Key Achievement </strong>
+
+                    <p>
+                      Developed extensive experience operating Trend Micro
+                      consoles for retrieving security data required for
+                      operational reports.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- EXPERIENCE 3 -->
+
+              <article class="experience-item">
+                <div class="timeline-date">
+                  Jun 2018 –
+                  <br />
+                  Sep 2021
+                </div>
+
+                <div class="timeline-dot"></div>
+
+                <div class="experience-content">
+                  <h3>SAP Master Data & Service Dispatcher</h3>
+
+                  <h4>PT Mitra Integrasi Informatika</h4>
+
+                  <div class="experience-tags">
+                    <span>SAP</span>
+                    <span>Master Data</span>
+                    <span>Service Desk</span>
+                    <span>Reporting</span>
+                  </div>
+
+                  <ul>
+                    <li>
+                      Managed SAP master data creation, updates, and deletion
+                      for materials, vendors, customers, and employees.
+                    </li>
+
+                    <li>
+                      Coordinated change requests and resolved master data
+                      issues with related departments.
+                    </li>
+
+                    <li>
+                      Developed LSMW upload templates to improve data accuracy
+                      and processing efficiency.
+                    </li>
+
+                    <li>
+                      Managed service requests and technician assignments based
+                      on priority and availability.
+                    </li>
+
+                    <li>Prepared daily and weekly performance reports.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <!-- EXPERIENCE 4 -->
+
+              <article class="experience-item">
+                <div class="timeline-date">
+                  Mar 2015 –
+                  <br />
+                  Sep 2017
+                </div>
+
+                <div class="timeline-dot"></div>
+
+                <div class="experience-content">
+                  <h3>RMA Admin</h3>
+
+                  <h4>PT Pilar Solusi Digital</h4>
+
+                  <div class="experience-tags">
+                    <span>RMA</span>
+                    <span>Administration</span>
+                    <span>Customer Service</span>
+                  </div>
+
+                  <ul>
+                    <li>
+                      Managed end-to-end Return Material Authorization
+                      processes.
+                    </li>
+
+                    <li>
+                      Coordinated inspections, repairs, replacements,
+                      warehouses, vendors, and technical teams.
+                    </li>
+
+                    <li>
+                      Prepared RMA performance reports and maintained records
+                      for reporting and audits.
+                    </li>
+                  </ul>
+                </div>
+              </article>
+
+              <!-- EXPERIENCE 5 -->
+
+              <article class="experience-item">
+                <div class="timeline-date">
+                  Mar 2013 –
+                  <br />
+                  Sep 2013
+                </div>
+
+                <div class="timeline-dot"></div>
+
+                <div class="experience-content">
+                  <h3>Purchasing Staff</h3>
+
+                  <h4>PT Tainan Enterprises Indonesia</h4>
+
+                  <div class="experience-tags">
+                    <span>Procurement</span>
+                    <span>Purchasing</span>
+                    <span>Reporting</span>
+                  </div>
+
+                  <ul>
+                    <li>
+                      Prepared purchase requisitions and purchase orders based
+                      on production requirements.
+                    </li>
+
+                    <li>
+                      Coordinated with production, PPIC, warehouse, and
+                      logistics teams.
+                    </li>
+
+                    <li>
+                      Maintained supplier and purchasing records for reporting
+                      and evaluation.
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+
+            <button class="full-experience-btn" id="experienceToggle">
+              <span>View Full Experience</span>
+
+              <svg>
+                <use href="#icon-arrow"></use>
+              </svg>
+            </button>
+          </div>
+
+          <!-- SKILLS -->
+
+          <aside class="skills-section" id="skills">
+            <div class="section-heading">
+              <span class="section-icon navy">
+                <svg>
+                  <use href="#icon-code"></use>
+                </svg>
+              </span>
+
+              <h2>Core Skills & Tools</h2>
+            </div>
+
+            <div class="skills-list">
+              <div class="skill-group writing">
+                <div class="skill-group-icon">
+                  <svg>
+                    <use href="#icon-document"></use>
+                  </svg>
+                </div>
+
+                <div>
+                  <h3>Technical Writing</h3>
+
+                  <div class="skill-tags">
+                    <span>Technical Documentation</span>
+                    <span>SOP</span>
+                    <span>User Manual</span>
+                    <span>RCA</span>
+                    <span>POC Report</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-group reporting">
+                <div class="skill-group-icon">
+                  <svg>
+                    <use href="#icon-chart"></use>
+                  </svg>
+                </div>
+
+                <div>
+                  <h3>Reporting & Data</h3>
+
+                  <div class="skill-tags">
+                    <span>Excel</span>
+                    <span>PowerPoint</span>
+                    <span>Looker Studio</span>
+                    <span>Data Processing</span>
+                    <span>Dashboard</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-group security">
+                <div class="skill-group-icon">
+                  <svg>
+                    <use href="#icon-shield"></use>
+                  </svg>
+                </div>
+
+                <div>
+                  <h3>IT & Security</h3>
+
+                  <div class="skill-tags">
+                    <span>Trend Micro</span>
+                    <span>Microsoft Defender</span>
+                    <span>Carbon Black</span>
+                    <span>Splunk</span>
+                    <span>Dynatrace</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-group design">
+                <div class="skill-group-icon">
+                  <svg>
+                    <use href="#icon-design"></use>
+                  </svg>
+                </div>
+
+                <div>
+                  <h3>Design & Visualization</h3>
+
+                  <div class="skill-tags">
+                    <span>Figma</span>
+                    <span>Canva</span>
+                    <span>Draw.io</span>
+                    <span>Adobe Photoshop</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-group programming">
+                <div class="skill-group-icon">
+                  <svg>
+                    <use href="#icon-code"></use>
+                  </svg>
+                </div>
+
+                <div>
+                  <h3>Programming & Automation</h3>
+
+                  <div class="skill-tags">
+                    <span>Python (ETL & Data)</span>
+                    <span>GitHub</span>
+                    <span>JavaScript</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- =========================
+     PROJECTS
+========================= -->
+
+      <section class="projects-section" id="projects">
+        <div class="container">
+          <div class="section-heading projects-heading">
+            <div class="heading-left">
+              <span class="section-icon coral">
+                <svg>
+                  <use href="#icon-document"></use>
+                </svg>
+              </span>
+
+              <h2>Selected Projects</h2>
+            </div>
+
+            <!-- <a
+              href="https://good-pastel.github.io/TW-portfolio/"
+              target="_blank"
+              rel="noopener"
+              class="view-all"
+            >
+              View All Projects
+
+              <svg>
+                <use href="#icon-arrow"></use>
+              </svg>
+            </a> -->
+          </div>
+
+          <div class="projects-grid">
+            <!-- PROJECT 1 -->
+            <article class="project-card">
+              <div class="project-icon blue">
+                <svg>
+                  <use href="#icon-document"></use>
+                </svg>
+              </div>
+
+              <h3>Technical Writer Portfolio</h3>
+
+              <span> Technical Writing · Documentation </span>
+
+              <p>
+                A collection of technical writing work including documentation,
+                reports, SOPs, user manuals, RCA reports, and technical project
+                deliverables.
+              </p>
+
+              <a
+                href="https://good-pastel.github.io/TW-portfolio/"
+                target="_blank"
+                rel="noopener"
+              >
+                View Project
+
+                <svg>
+                  <use href="#icon-arrow"></use>
+                </svg>
+              </a>
+            </article>
+
+            <!-- PROJECT 2 -->
+            <article class="project-card">
+              <div class="project-icon orange">
+                <svg>
+                  <use href="#icon-chart"></use>
+                </svg>
+              </div>
+
+              <h3>Data Analyst Portfolio</h3>
+
+              <span> Data Analytics · Visualization </span>
+
+              <p>
+                A collection of data analytics projects covering dashboards,
+                SQL, Python, data visualization, data cleaning, and analytical
+                exploration.
+              </p>
+
+              <a
+                href="https://good-pastel.github.io/data-analyst-portfolio/"
+                target="_blank"
+                rel="noopener"
+              >
+                View Project
+
+                <svg>
+                  <use href="#icon-arrow"></use>
+                </svg>
+              </a>
+            </article>
+
+            <!-- PROJECT 3 -->
+            <article class="project-card">
+              <div class="project-icon teal">
+                <svg>
+                  <use href="#icon-code"></use>
+                </svg>
+              </div>
+
+              <h3>SQL Case Study</h3>
+
+              <span> MySQL · Data Analysis </span>
+
+              <p>
+                Exploratory analysis of Data Analyst-related salary data using
+                MySQL, covering data validation, salary analysis, country
+                comparison, and CTE.
+              </p>
+
+              <a
+                href="https://good-pastel.github.io/SQL-case-study/"
+                target="_blank"
+                rel="noopener"
+              >
+                View Project
+
+                <svg>
+                  <use href="#icon-arrow"></use>
+                </svg>
+              </a>
+            </article>
+
+            <!-- PROJECT 4 -->
+            <article class="project-card">
+              <div class="project-icon purple">
+                <svg>
+                  <use href="#icon-code"></use>
+                </svg>
+              </div>
+
+              <h3>Employee Salary Analytics</h3>
+
+              <span> Python · Linked List · OOP </span>
+
+              <p>
+                A Python data analytics project implementing Linked List, CRUD,
+                filtering, grouping, statistics, and salary distribution from
+                scratch.
+              </p>
+
+              <a
+                href="https://good-pastel.github.io/employee-salary-analytics/"
+                target="_blank"
+                rel="noopener"
+              >
+                View Project
+
+                <svg>
+                  <use href="#icon-arrow"></use>
+                </svg>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+             BOTTOM INFORMATION
+        ========================== -->
+
+      <section class="bottom-section" id="contact">
+        <div class="container bottom-grid">
+          <!-- EDUCATION -->
+
+          <div class="bottom-column">
+            <div class="bottom-heading">
+              <span class="bottom-icon">
+                <svg>
+                  <use href="#icon-graduation"></use>
+                </svg>
+              </span>
+
+              <h2>Education</h2>
+            </div>
+
+            <h3>Universitas Terbuka Indonesia</h3>
+
+            <p>S1 Sastra Inggris Bidang Minat Penerjemahan</p>
+
+            <span> 2014 – 2018 </span>
+          </div>
+
+          <!-- LANGUAGES -->
+
+          <div class="bottom-column">
+            <div class="bottom-heading">
+              <span class="bottom-icon">
+                <svg>
+                  <use href="#icon-users"></use>
+                </svg>
+              </span>
+
+              <h2>Languages</h2>
+            </div>
+
+            <div class="language-item">
+              <strong> Bahasa Indonesia </strong>
+
+              <span> Native </span>
+
+              <div class="language-dots">
+                <i class="filled"></i>
+                <i class="filled"></i>
+                <i class="filled"></i>
+                <i class="filled"></i>
+                <i class="filled"></i>
+                <i></i>
+                <i></i>
+              </div>
+            </div>
+
+            <div class="language-item">
+              <strong> English </strong>
+
+              <span> Professional Working Proficiency </span>
+
+              <div class="language-dots">
+                <i class="filled"></i>
+                <i class="filled"></i>
+                <i class="filled"></i>
+                <i class="filled"></i>
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- CONTACT -->
+
+          <div class="bottom-column contact-column">
+            <div class="bottom-heading">
+              <span class="bottom-icon">
+                <svg>
+                  <use href="#icon-mail"></use>
+                </svg>
+              </span>
+
+              <h2>Let's Work Together</h2>
+            </div>
+
+            <p>Open to new opportunities and professional collaborations.</p>
+
+            <a href="mailto:datatechnicalwriter@gmail.com" class="contact-link">
+              <svg>
+                <use href="#icon-mail"></use>
+              </svg>
+
+              datatechnicalwriter@gmail.com
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/deviyool"
+              target="_blank"
+              rel="noopener"
+              class="contact-link"
+            >
+              <svg>
+                <use href="#icon-linkedin"></use>
+              </svg>
+
+              linkedin.com/in/deviyool
+            </a>
+
+            <a
+              href="https://github.com/good-pastel"
+              target="_blank"
+              rel="noopener"
+              class="contact-link"
+            >
+              <svg>
+                <use href="#icon-github"></use>
+              </svg>
+
+              github.com/good-pastel
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+      <div class="footer-decoration footer-left"></div>
+      <div class="footer-decoration footer-right"></div>
+
+      <div class="container footer-container">
+        <p>
+          © <span id="currentYear"></span>
+          Devi Yolanda. All rights reserved.
+        </p>
+
+        <button class="back-to-top" id="backToTop" aria-label="Back to top">
+          <svg>
+            <use href="#icon-arrow-up"></use>
+          </svg>
+        </button>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
